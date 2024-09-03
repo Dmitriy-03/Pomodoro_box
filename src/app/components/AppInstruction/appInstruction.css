@@ -1,0 +1,20 @@
+.instructionWrapper {
+  padding: 0;
+}
+
+.instructionWrapper > h2 {
+  margin: 0;
+  margin-bottom: 3px;
+}
+
+.instructionList {
+  list-style: disc;
+}
+
+.instructionList > li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.instructionList > li::marker {
+  color: var(--red);
+}

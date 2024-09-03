@@ -1,0 +1,12 @@
+.timerTask {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-items: center;
+  padding: 19px 40px;
+  background-color: var(--greyC4);
+}
+
+.bgRed {
+  background-color: var(--red);
+}

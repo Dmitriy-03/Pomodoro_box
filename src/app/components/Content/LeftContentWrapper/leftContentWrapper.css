@@ -1,0 +1,6 @@
+.leftContentWrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 530px;
+  gap: 25px;
+}

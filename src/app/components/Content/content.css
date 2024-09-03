@@ -1,0 +1,6 @@
+.content {
+  padding: 100px 80px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}

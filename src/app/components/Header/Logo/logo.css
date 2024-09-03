@@ -1,0 +1,28 @@
+.linkActive,
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.linkActive > h1,
+.logo > h1 {
+  margin: 0;
+}
+
+.logo path:first-child,
+.logo > h1 {
+  transition: 0.3s;
+}
+
+.logo:hover path:first-child {
+  fill: var(--red-active);
+}
+
+.logo:hover > h1 {
+  color: var(--red-active);
+}
+
+.linkActive path:first-child {
+  fill: var(--red-active);
+}

@@ -1,0 +1,10 @@
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.bottom > div {
+  max-width: 405px;
+  width: 100%;
+}

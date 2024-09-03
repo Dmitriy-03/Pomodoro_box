@@ -1,0 +1,13 @@
+.menuWeekList {
+  display: flex;
+  flex-direction: column;
+}
+
+.menuWeekBtn {
+  padding: 19px 15px;
+  display: flex;
+  width: 100%;
+  border-top: 1px solid var(--greyDE);
+  border-bottom: 1px solid var(--greyDE);
+  background-color: var(--greyF4);
+}

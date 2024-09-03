@@ -1,0 +1,10 @@
+.middle {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.middle > canvas {
+  max-width: 952px;
+  background-color: var(--grayF4);
+}

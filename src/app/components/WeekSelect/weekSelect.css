@@ -1,0 +1,19 @@
+.button {
+  padding: 19px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 370px;
+  width: 100%;
+  background-color: var(--greyF4);
+}
+
+.weekSelectOpen,
+.weekSelect {
+  max-width: 370px;
+  width: 100%;
+}
+
+.weekSelectOpen svg {
+  transform: rotate(180deg);
+}

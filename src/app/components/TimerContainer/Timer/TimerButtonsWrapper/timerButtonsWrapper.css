@@ -1,0 +1,36 @@
+.timerButtonsWrapper {
+  display: flex;
+  gap: 25px;
+}
+
+.startButton {
+  padding: 19px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  background-color: var(--green);
+  transition: 0.3s;
+}
+
+.stopButton {
+  padding: 19px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  border: 2px solid var(--greyC4);
+  background-color: transparent;
+}
+
+.startButton:focus-visible {
+  background-color: var(--green-dark);
+}
+
+.startButton:hover {
+  background-color: var(--green-dark);
+}
+
+.startButton:active {
+  background-color: var(--green-active);
+}
