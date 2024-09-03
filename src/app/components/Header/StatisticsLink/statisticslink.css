@@ -1,0 +1,27 @@
+.linkActive,
+.statisticsLink {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.statisticsLink path,
+.statisticsLink span {
+  transition: 0.3s;
+}
+
+.statisticsLink:hover path {
+  fill: var(--red-active);
+}
+
+.statisticsLink:hover span {
+  color: var(--red-active);
+}
+
+.linkActive path {
+  fill: var(--red-active);
+}
+
+.linkActive span {
+  color: var(--red-active);
+}

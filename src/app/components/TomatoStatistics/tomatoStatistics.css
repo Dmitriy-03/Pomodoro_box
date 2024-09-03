@@ -1,0 +1,42 @@
+.tomatoStatistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  background-color: var(--greyF4);
+}
+
+.tomatoCount {
+  display: flex;
+  padding: 9px 0px;
+  background-color: var(--red);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.wrapper {
+  display: flex;
+  padding: 24px 0;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+}
+
+.wrapper svg {
+  width: 81px;
+  height: 81px;
+}
+
+.wrapperTomato {
+  padding: 32px 0;
+}
+
+.wrapperTomato > svg {
+  width: 115px;
+  height: 115px;
+}

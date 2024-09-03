@@ -1,0 +1,31 @@
+.taskItem {
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  max-width: 370px;
+  border-top: 1px solid var(--greyC4);
+  border-bottom: 1px solid var(--greyC4);
+}
+
+.countTomatoes {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  width: 25px;
+  height: 25px;
+  border: 1px solid var(--greyC4);
+  border-radius: 20px;
+}
+
+.input {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17px;
+  width: 70%;
+  color: var(--black);
+  border: none;
+  outline: none;
+  background-color: var(--background-color);
+}

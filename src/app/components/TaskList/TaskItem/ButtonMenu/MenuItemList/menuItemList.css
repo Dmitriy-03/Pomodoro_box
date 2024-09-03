@@ -1,0 +1,45 @@
+.menuItemsList {
+  padding: 5px 0;
+  position: absolute;
+  left: -270%;
+  top: 12px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--greyC4);
+  background-color: var(--white);
+  z-index: 100;
+}
+
+.menuItemsList::before,
+.menuItemsList::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -20px;
+  border: 11px solid transparent;
+  border-bottom: 10px solid var(--greyC4);
+}
+
+.menuItemsList::after {
+  border-bottom: 10px solid white;
+  top: -18px;
+}
+
+.button {
+  padding: 10px 15px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  width: 100%;
+  transition: 0.2s;
+}
+
+.button:focus-visible,
+.button:hover {
+  background-color: var(--grayF4);
+}
+
+.button:active {
+  background-color: var(--grey99);
+}

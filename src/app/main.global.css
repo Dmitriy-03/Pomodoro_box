@@ -1,0 +1,139 @@
+:root {
+  --black: #333333;
+  --green: #a8b64f;
+  --green-dark: #899440;
+  --green-active: #494f23;
+  --red: #dc3e22;
+  --red-active: #b7280f;
+  --pink: #ee735d;
+  --pink-light: #ea8979;
+  --white: hsl(0, 0%, 100%);
+  --greyF4: hsl(0, 0%, 96%);
+  --greyE4: hsl(0, 0%, 89%);
+  --greyDE: hsla(0, 0%, 87%, 1);
+  --greyC4: hsl(0, 0%, 77%);
+  --grey99: hsl(0, 0%, 60%);
+  --font-family: "SFUIDisplay";
+}
+
+@font-face {
+  font-family: "SFUIDisplay";
+  src: local("SFUIDisplay-Regular"), local("SF UI Display Regular"),
+    url("../assets/fonts/SFUIDisplay-Regular.woff2") format("woff2"),
+    url("../assets/fonts/SFUIDisplay-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SFUIDisplay";
+  src: local("SFUIDisplay-Light"), local("SF UI Display Light"),
+    url("../assets/fonts/SFUIDisplay-Light.woff2") format("woff2"),
+    url("../assets/fonts/SFUIDisplay-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SFUIDisplay";
+  src: local("SFUIDisplay-Medium"), local("SF UI Display Medium"),
+    url("../assets/fonts/SFUIDisplay-Medium.woff2") format("woff2"),
+    url("../assets/fonts/SFUIDisplay-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SFUIDisplay";
+  src: local("SFUIText-Bold"), local("SF UI Text Bold"),
+    url("../assets/fonts/SFUIText-Bold.woff2") format("woff2"),
+    url("../assets/fonts/SFUIText-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SFUIDisplay";
+  src: local("SFUIDisplay-Thin"), local("SF UI Display Thin"),
+    url("../assets/fonts/SFUIDisplay-Thin.woff2") format("woff2"),
+    url("../assets/fonts/SFUIDisplay-Thin.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: brown;
+  margin: 0;
+  min-width: 320px;
+  font-family: var(--font-family), sans-serif;
+  font-weight: 400;
+  color: var(--black);
+  background-color: var(--white);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+input {
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  border-radius: 0;
+  background-color: #fff;
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration {
+  display: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

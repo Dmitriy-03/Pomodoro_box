@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.statisticsIndicators {
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.statisticsIndicators.dark {
+  background-color: #262626;
+}
+
+.backgroundFF {
+  background: rgba(255, 221, 169, 1);
+}
+
+.backgroundDF {
+  background: rgba(223, 220, 254, 1);
+}
+
+.backgroundC5 {
+  background: rgba(197, 241, 255, 1);
+}

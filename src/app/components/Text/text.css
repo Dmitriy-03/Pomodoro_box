@@ -1,0 +1,93 @@
+.s12 {
+  font-size: 12px;
+  line-height: 33px;
+}
+
+.s16 {
+  font-size: 16px;
+  line-height: 17px;
+}
+
+.s1628 {
+  font-size: 16px;
+  line-height: 33px;
+}
+
+.s1633 {
+  font-size: 16px;
+  line-height: 33px;
+}
+
+.s2433 {
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.s24 {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.s2417 {
+  font-size: 24px;
+  line-height: 17px;
+}
+
+.s64 {
+  font-size: 64px;
+  line-height: 76px;
+}
+
+.s72 {
+  font-size: 72px;
+  line-height: 86px;
+}
+
+.s150 {
+  font-size: 150px;
+  line-height: 179px;
+}
+
+.w200 {
+  font-weight: 200;
+}
+
+.w300 {
+  font-weight: 300;
+}
+
+.w400 {
+  font-weight: 400;
+}
+
+.w500 {
+  font-weight: 500;
+}
+
+.w700 {
+  font-weight: 700;
+}
+
+.black {
+  color: var(--black);
+}
+
+.red {
+  color: var(--red);
+}
+
+.green {
+  color: var(--green);
+}
+
+.white {
+  color: var(--white);
+}
+
+.grey99 {
+  color: var(--grey99);
+}
+
+.greyC4 {
+  color: var(--greyC4);
+}
