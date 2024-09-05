@@ -11,7 +11,6 @@ React-приложение c использованием одной из мет
 - [React Redux](https://react-redux.js.org/)
 - [Redux Toolkit](https://redux-toolkit.js.org/)
 - [React Router](https://reactrouter.com/en/main)
-- [redux-persist](https://github.com/rt2zz/redux-persist)
 - [webpack 5](https://webpack.js.org/)
 
 ## Установка
